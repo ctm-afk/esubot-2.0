@@ -1,10 +1,10 @@
 let handler = async (m, { conn }) => {
-  let link = "https://chat.whatsapp.com/KSvyvc78PHaDcDLinWNfNc"
+  let link = "https://instagram.com/ghostenixe?igshid=ih72auzos5gl"
   function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
-  for (let i=0;i<50;i++){
-    conn.reply(m.chat, `👑Samu330👑 ⚠⚠⚠⚠Group⚠⚠⚠⚠ !\n\n${link}`)
+  for (let i=0;i<5;i++){
+    conn.reply(m.chat, `👑NIXE👑 ⚠⚠⚠⚠Instagram⚠⚠⚠⚠ !\n\n${link}`)
     await sleep(1250)
   }
 }
